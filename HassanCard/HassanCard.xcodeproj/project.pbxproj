@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7893F992872F96200C88943 /* HassanCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7893F982872F96200C88943 /* HassanCardApp.swift */; };
+		D7893F9B2872F96200C88943 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7893F9A2872F96200C88943 /* ContentView.swift */; };
+		D7893F9D2872F96400C88943 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7893F9C2872F96400C88943 /* Assets.xcassets */; };
+		D7893FA02872F96400C88943 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7893F9F2872F96400C88943 /* Preview Assets.xcassets */; };
+		D7893FDD2872FE0B00C88943 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FCB2872FE0B00C88943 /* Poppins-Medium.ttf */; };
+		D7893FDE2872FE0B00C88943 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FCC2872FE0B00C88943 /* Poppins-ExtraBold.ttf */; };
+		D7893FDF2872FE0B00C88943 /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FCD2872FE0B00C88943 /* Poppins-Black.ttf */; };
+		D7893FE02872FE0B00C88943 /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FCE2872FE0B00C88943 /* Poppins-ExtraBoldItalic.ttf */; };
+		D7893FE12872FE0B00C88943 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FCF2872FE0B00C88943 /* Poppins-LightItalic.ttf */; };
+		D7893FE22872FE0B00C88943 /* Poppins-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD02872FE0B00C88943 /* Poppins-Italic.ttf */; };
+		D7893FE32872FE0B00C88943 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD12872FE0B00C88943 /* Poppins-SemiBold.ttf */; };
+		D7893FE42872FE0B00C88943 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD22872FE0B00C88943 /* Poppins-BoldItalic.ttf */; };
+		D7893FE52872FE0B00C88943 /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD32872FE0B00C88943 /* Poppins-ThinItalic.ttf */; };
+		D7893FE62872FE0B00C88943 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD42872FE0B00C88943 /* Poppins-Light.ttf */; };
+		D7893FE72872FE0B00C88943 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD52872FE0B00C88943 /* Poppins-Regular.ttf */; };
+		D7893FE82872FE0B00C88943 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD62872FE0B00C88943 /* Poppins-BlackItalic.ttf */; };
+		D7893FE92872FE0B00C88943 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD72872FE0B00C88943 /* Poppins-Bold.ttf */; };
+		D7893FEA2872FE0B00C88943 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD82872FE0B00C88943 /* Poppins-MediumItalic.ttf */; };
+		D7893FEB2872FE0B00C88943 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FD92872FE0B00C88943 /* Poppins-ExtraLight.ttf */; };
+		D7893FEC2872FE0B00C88943 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FDA2872FE0B00C88943 /* Poppins-Thin.ttf */; };
+		D7893FED2872FE0B00C88943 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FDB2872FE0B00C88943 /* Poppins-SemiBoldItalic.ttf */; };
+		D7893FEE2872FE0B00C88943 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D7893FDC2872FE0B00C88943 /* Poppins-ExtraLightItalic.ttf */; };
+		D7893FF32873105E00C88943 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7893FF22873105E00C88943 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7893F952872F96200C88943 /* HassanCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HassanCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7893F982872F96200C88943 /* HassanCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HassanCardApp.swift; sourceTree = "<group>"; };
+		D7893F9A2872F96200C88943 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D7893F9C2872F96400C88943 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7893F9F2872F96400C88943 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D7893FCB2872FE0B00C88943 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D7893FCC2872FE0B00C88943 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBold.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		D7893FCD2872FE0B00C88943 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		D7893FCE2872FE0B00C88943 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBoldItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D7893FCF2872FE0B00C88943 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-LightItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		D7893FD02872FE0B00C88943 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Italic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Italic.ttf"; sourceTree = "<group>"; };
+		D7893FD12872FE0B00C88943 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		D7893FD22872FE0B00C88943 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BoldItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+		D7893FD32872FE0B00C88943 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ThinItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		D7893FD42872FE0B00C88943 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		D7893FD52872FE0B00C88943 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		D7893FD62872FE0B00C88943 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		D7893FD72872FE0B00C88943 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D7893FD82872FE0B00C88943 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		D7893FD92872FE0B00C88943 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		D7893FDA2872FE0B00C88943 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		D7893FDB2872FE0B00C88943 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBoldItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		D7893FDC2872FE0B00C88943 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLightItalic.ttf"; path = "../../../../../../Downloads/Fonts/Poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		D7893FEF2872FF3C00C88943 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D7893FF22873105E00C88943 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7893F922872F96200C88943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7893F8C2872F96200C88943 = {
+			isa = PBXGroup;
+			children = (
+				D7893F972872F96200C88943 /* HassanCard */,
+				D7893F962872F96200C88943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7893F962872F96200C88943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7893F952872F96200C88943 /* HassanCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7893F972872F96200C88943 /* HassanCard */ = {
+			isa = PBXGroup;
+			children = (
+				D7893FEF2872FF3C00C88943 /* Info.plist */,
+				D7893FA62872FD1300C88943 /* fonts */,
+				D7893F982872F96200C88943 /* HassanCardApp.swift */,
+				D7893FF22873105E00C88943 /* InfoView.swift */,
+				D7893F9A2872F96200C88943 /* ContentView.swift */,
+				D7893F9C2872F96400C88943 /* Assets.xcassets */,
+				D7893F9E2872F96400C88943 /* Preview Content */,
+			);
+			path = HassanCard;
+			sourceTree = "<group>";
+		};
+		D7893F9E2872F96400C88943 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D7893F9F2872F96400C88943 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D7893FA62872FD1300C88943 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D7893FCD2872FE0B00C88943 /* Poppins-Black.ttf */,
+				D7893FD62872FE0B00C88943 /* Poppins-BlackItalic.ttf */,
+				D7893FD72872FE0B00C88943 /* Poppins-Bold.ttf */,
+				D7893FD22872FE0B00C88943 /* Poppins-BoldItalic.ttf */,
+				D7893FCC2872FE0B00C88943 /* Poppins-ExtraBold.ttf */,
+				D7893FCE2872FE0B00C88943 /* Poppins-ExtraBoldItalic.ttf */,
+				D7893FD92872FE0B00C88943 /* Poppins-ExtraLight.ttf */,
+				D7893FDC2872FE0B00C88943 /* Poppins-ExtraLightItalic.ttf */,
+				D7893FD02872FE0B00C88943 /* Poppins-Italic.ttf */,
+				D7893FD42872FE0B00C88943 /* Poppins-Light.ttf */,
+				D7893FCF2872FE0B00C88943 /* Poppins-LightItalic.ttf */,
+				D7893FCB2872FE0B00C88943 /* Poppins-Medium.ttf */,
+				D7893FD82872FE0B00C88943 /* Poppins-MediumItalic.ttf */,
+				D7893FD52872FE0B00C88943 /* Poppins-Regular.ttf */,
+				D7893FD12872FE0B00C88943 /* Poppins-SemiBold.ttf */,
+				D7893FDB2872FE0B00C88943 /* Poppins-SemiBoldItalic.ttf */,
+				D7893FDA2872FE0B00C88943 /* Poppins-Thin.ttf */,
+				D7893FD32872FE0B00C88943 /* Poppins-ThinItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7893F942872F96200C88943 /* HassanCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7893FA32872F96400C88943 /* Build configuration list for PBXNativeTarget "HassanCard" */;
+			buildPhases = (
+				D7893F912872F96200C88943 /* Sources */,
+				D7893F922872F96200C88943 /* Frameworks */,
+				D7893F932872F96200C88943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HassanCard;
+			productName = HassanCard;
+			productReference = D7893F952872F96200C88943 /* HassanCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7893F8D2872F96200C88943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D7893F942872F96200C88943 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = D7893F902872F96200C88943 /* Build configuration list for PBXProject "HassanCard" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7893F8C2872F96200C88943;
+			productRefGroup = D7893F962872F96200C88943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7893F942872F96200C88943 /* HassanCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7893F932872F96200C88943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7893FE02872FE0B00C88943 /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D7893FED2872FE0B00C88943 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				D7893FEB2872FE0B00C88943 /* Poppins-ExtraLight.ttf in Resources */,
+				D7893FEA2872FE0B00C88943 /* Poppins-MediumItalic.ttf in Resources */,
+				D7893FEC2872FE0B00C88943 /* Poppins-Thin.ttf in Resources */,
+				D7893FDE2872FE0B00C88943 /* Poppins-ExtraBold.ttf in Resources */,
+				D7893FE72872FE0B00C88943 /* Poppins-Regular.ttf in Resources */,
+				D7893FE22872FE0B00C88943 /* Poppins-Italic.ttf in Resources */,
+				D7893FE52872FE0B00C88943 /* Poppins-ThinItalic.ttf in Resources */,
+				D7893FE12872FE0B00C88943 /* Poppins-LightItalic.ttf in Resources */,
+				D7893FDD2872FE0B00C88943 /* Poppins-Medium.ttf in Resources */,
+				D7893FE92872FE0B00C88943 /* Poppins-Bold.ttf in Resources */,
+				D7893FEE2872FE0B00C88943 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				D7893FA02872F96400C88943 /* Preview Assets.xcassets in Resources */,
+				D7893FE82872FE0B00C88943 /* Poppins-BlackItalic.ttf in Resources */,
+				D7893FE62872FE0B00C88943 /* Poppins-Light.ttf in Resources */,
+				D7893FE32872FE0B00C88943 /* Poppins-SemiBold.ttf in Resources */,
+				D7893F9D2872F96400C88943 /* Assets.xcassets in Resources */,
+				D7893FDF2872FE0B00C88943 /* Poppins-Black.ttf in Resources */,
+				D7893FE42872FE0B00C88943 /* Poppins-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7893F912872F96200C88943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7893F9B2872F96200C88943 /* ContentView.swift in Sources */,
+				D7893FF32873105E00C88943 /* InfoView.swift in Sources */,
+				D7893F992872F96200C88943 /* HassanCardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D7893FA12872F96400C88943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7893FA22872F96400C88943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7893FA42872F96400C88943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HassanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MV9RD4NLS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HassanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan-mobizion.HassanCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7893FA52872F96400C88943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"HassanCard/Preview Content\"";
+				DEVELOPMENT_TEAM = 3MV9RD4NLS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HassanCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hassan-mobizion.HassanCard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7893F902872F96200C88943 /* Build configuration list for PBXProject "HassanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7893FA12872F96400C88943 /* Debug */,
+				D7893FA22872F96400C88943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7893FA32872F96400C88943 /* Build configuration list for PBXNativeTarget "HassanCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7893FA42872F96400C88943 /* Debug */,
+				D7893FA52872F96400C88943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7893F8D2872F96200C88943 /* Project object */;
+}
